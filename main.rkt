@@ -7,9 +7,10 @@
   thing-set!
   thing-call)
 
+(require "extras.rkt")
+
 (module+ test
-  (require rackunit)
-  (require test-engine/scheme-tests))
+  (require rackunit))
 
 ; A simple wrapper for things
 (define-struct thing (data)
