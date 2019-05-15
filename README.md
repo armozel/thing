@@ -1,3 +1,6 @@
+Note:
+    This is a fork for the purpose of updating the project to overcome a minor issue with the use of rackunit and test- engine/scheme-tests which seem to conflict
+
 To install:
 
     raco pkg install github://github.com/jpverkamp/thing/master
